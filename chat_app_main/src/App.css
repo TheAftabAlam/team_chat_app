@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+.login-page,
+.chat-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  margin-top: 4rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #1976d2;
+}
+
+.message-area {
+  list-style: none;
+  padding: 0;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.chat-message i {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ccc;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.chat-message span {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.chat-message p {
+  margin: 0;
+}
+
+.event-message {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin: 1rem 0;
+}
+
+.own-message {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.error {
+  color: red;
+}
